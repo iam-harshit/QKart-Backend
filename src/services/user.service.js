@@ -12,7 +12,6 @@ const bcrypt = require("bcryptjs");
  const getUserById = async (id)=>
  {
      const theUser = await User.findOne({ "_id": id });
-     // console.log(theUser,"theUser")
      return theUser;
  }
 // TODO: CRIO_TASK_MODULE_UNDERSTANDING_BASICS - Implement getUserByEmail(email)

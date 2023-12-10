@@ -53,7 +53,6 @@ const userSchema = mongoose.Schema(
       default: config.default_address,
     },
   },
-  // Create createdAt and updatedAt fields automatically
   {
     timestamps: true,
   }
